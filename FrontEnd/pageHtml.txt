@@ -1,0 +1,47 @@
+﻿<!DOCTYPE>
+<html>
+	<head>
+		<title>Client App - Weather</title>
+		<style>table, th, tr, td {6}</style>
+	</head>
+	<body>
+		<table style="width: 100%;">
+			<tr>
+				<th></th>
+				<th>Warszawa</th>
+				<th>Lodz</th>
+				<th>Szczecin</th>
+				<th>Wroclaw</th>
+				<th>Gdanska</th>
+				<th>Krakow</th>
+				<th>Suwalki</th>
+				<th>Rzeszow</th>
+				<th>Poland</th>
+			</tr>
+			<tr>
+				<td>Temperature [Celcius degrees]</td>
+				{0}
+			</tr>
+			<tr>
+				<td>Pressure [hPa]</td>
+				{1}
+			</tr>
+			<tr>
+				<td>Humidity [%]</td>
+				{2}
+			</tr>
+			<tr>
+				<td>Precipitation [mm]</td>
+				{3}
+			</tr>
+			<tr>
+				<td>Wind Speed [m/s]</td>
+				{4}
+			</tr>
+			<tr>
+				<td>Wind Direction [degrees]</td>
+				{5}
+			</tr>
+		</table>
+	</body>
+</html>
